@@ -1,0 +1,29 @@
+En la base de datos vamos a tener
+USUARIOS->  id (PK)
+            nombre de usuario (investigar como seria con la google api)
+            goals_id (que goals tiene) uno a muchos
+GOALS-->id(PK)
+        user_id (para relacionar) muchos a uno 
+
+
+Tareas:
+El estado de una tarea que no se completo es de PAGO PENDIENTE. Si llega a las 
+23:59 de ese dia cuando completado=falso, se acredita. Else no se acredita
+
+Google Login. Estos datos irian al modelo de users. investigar
+
+Ver bien que onda la DB. Es probable que en la tabla de 'goals' tengas que agregar
+timestamps como la columna 'created at'
+
+
+
+Mejorar como se ve el form y empezar con las funcionalidades
+    Al clickear en un boton (poniendo uno de los pagos) se abriria un credit card
+    input, y tambien clarificando que el pago se ejecutara ese dia a las 23:59hs.
+    Esto lo vamos a hacer con Stripe.
+      Instalar React Stripe.js
+      Crear input de credit card y darle Estilo
+      Procesar pago con la data de los credit card details.
+      
+
+

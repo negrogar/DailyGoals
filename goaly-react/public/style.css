@@ -1,0 +1,179 @@
+
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+  font-family: 'Varela Round';
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  font-size: 10px;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #f24e47;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ececec;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color:#d3d1d1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #ececec;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 2em;
+  cursor: pointer;
+  background-color: #f24e47;
+  color: #ececec;
+  border: none;
+  margin-top: -0.5em;
+}
+
+.openbtn:hover {
+  background-color: #b40600;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.header{
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+  color: #ececec;
+  background-color: #f24e47;
+  border-bottom: solid 2px #b40600 ;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 5em;
+}
+
+.title{
+  text-align: center;
+  margin-top: -0.384em;
+}
+
+/* END OF HEADER*/
+
+/*Body*/
+
+#text-banner{
+  text-align: center;
+  color: rgb(37, 37, 37);
+  line-height: 1.8em;
+}
+
+.goal-bar{
+  background-color:#fafafa;
+  margin: 3em 2em 1em 2em;
+  padding: 1.5em;
+  border: #f24e47;
+  border-radius: 10px;
+}
+
+.your-goal{
+  overflow: hidden;
+  background-color:#fafafa;
+  margin: 1em 2em 1em 2em;
+  padding: 1.5em;
+  border: #f24e47;
+  border-radius: 10px;
+}
+
+.boton-add{
+  float: left;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: 4em;
+  margin-right: 0.6em;
+  margin-top: -0.28em;
+  cursor: pointer;
+}
+
+.new-goal{
+  margin-top: 0.4em;
+}
+
+/*======= FORMULARIO SET YOUR GOAL ========== */
+
+#goal-form{
+  background-color: #f24e47;
+  color: #ececec;
+  border-left: solid 0.8px #b40600 ;
+  border-right: solid 0.8px #b40600 ;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 0;
+  overflow: hidden; /* Disable horizontal scroll */
+}
+
+#cerrar-form{
+  font-size: 3em;
+  padding-left: 85%;
+}
+
+#labelform{
+  display: block;
+}
+
+.texto{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn-wrap{
+  text-align: center;
+}
+
+.pay-btn{
+  width: 85%;
+  border-radius: 9px;
+  background: rgb(255, 255, 255);
+  color: rgb(37, 37, 37);
+  padding: 1em 2em 0.6em 2em; 
+  border: solid 1px #d4d4d4;
+  margin-bottom: 1em;
+}
+
+#save-btn{
+  width: 95%;
+  background: #ffffff;
+  border-radius: 9px;
+  padding: 1em 2em 0.6em 2em;
+  border: solid 1px #d4d4d4;
+  margin-bottom: 1.5em;
+}
